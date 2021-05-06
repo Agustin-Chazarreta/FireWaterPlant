@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Water, Fire or Plant</title>
+  </head>
+  <link rel="stylesheet" href="game.css" />
+  <body>
+    <div class="container">
+      <div id="buttons">
+        <button id="buttonWater" value="Water">
+          <img id="Water" src="/imagenes/water.png" alt="" width="60" />
+        </button>
+        <button id="buttonFire" value="Fire">
+          <img
+            id="Fire"
+            src="/imagenes/fire.png"
+            alt=""
+            width="55"
+            height="60"
+          />
+        </button>
+        <button id="buttonPlant" value="Plant">
+          <img id="Plant" src="/imagenes/plant.png" alt="" width="60" />
+        </button>
+      </div>
+
+      <div id="battleField">
+        <img src="" alt="" id="imagePlayer" width="60" />
+        <span>VS</span>
+        <img src="" alt="" id="imageCP" width="60" />
+      </div>
+    </div>
+    <div id="spaceRandom"></div>
+
+    <div id="scoreBoard">
+      Score Board
+      <table style="width: 100%">
+        <tr>
+          <th>Player 1</th>
+          <th>Computer</th>
+        </tr>
+        <tr>
+          <td>Score</td>
+          <td id="scoreP1">0</td>
+          <td id="scoreCP">0</td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="juego.js"></script>
+  </body>
+</html>

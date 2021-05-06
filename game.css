@@ -1,0 +1,69 @@
+#buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: rgb(42, 42, 42);
+  text-align: center;
+  height: 200px;
+  height: 220px;
+}
+#buttonWater {
+  background-color: grey;
+  border-radius: 50%;
+  color: white;
+  border-color: black;
+  height: 90px;
+  width: 90px;
+}
+#buttonFire {
+  top: 25%;
+  border-radius: 50%;
+  background-color: grey;
+  color: white;
+  border-color: black;
+  position: relative;
+  height: 90px;
+  width: 90px;
+}
+#buttonPlant {
+  position: relative;
+  border-radius: 50%;
+  color: white;
+  background-color: grey;
+  border-color: black;
+  height: 90px;
+  width: 90px;
+}
+
+#battleField {
+  width: 100%;
+  height: 220px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#button2 {
+  position: relative;
+  top: -10%;
+  background-color: black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 0 0 0 5px rgb(5, 5, 5);
+}
+button:active {
+  box-shadow: inset 0 0 0 5px rgb(5, 5, 5);
+}
