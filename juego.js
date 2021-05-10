@@ -47,7 +47,6 @@ buttons.addEventListener("click", function (e) {
     if (randomElement === "Fire") {
     }
   }
-
   if (e.target.id === "Plant" || e.target.id === "buttonPlant") {
     imagePlayer.src = "/imagenes/plant.png";
     imageCP.src = `/imagenes/${randomElement.toLowerCase()}.png`;
