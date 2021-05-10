@@ -29,25 +29,26 @@
 
       <div id="battleField">
         <img src="" alt="" id="imagePlayer" width="60" />
-        <span>VS</span>
+        <div class="containerScore">
+          <span
+            ><span id="scoreP1">0</span> VS
+            <span id="scoreCP">0</span>
+          </span>
+        </div>
         <img src="" alt="" id="imageCP" width="60" />
       </div>
     </div>
-    <div id="spaceRandom"></div>
 
-    <div id="scoreBoard">
-      Score Board
-      <table style="width: 100%">
-        <tr>
-          <th>Player 1</th>
-          <th>Computer</th>
-        </tr>
-        <tr>
-          <td>Score</td>
-          <td id="scoreP1">0</td>
-          <td id="scoreCP">0</td>
-        </tr>
-      </table>
+    <div id="containerCpDiv">
+      <div id="circle1">
+        <img id="question" src="/imagenes/question.png" alt="" width="60" />
+      </div>
+      <div id="circle2">
+        <img id="question" src="/imagenes/question.png" alt="" width="60" />
+      </div>
+      <div id="circle3">
+        <img id="question" src="/imagenes/question.png" alt="" width="60" />
+      </div>
     </div>
 
     <script src="juego.js"></script>

@@ -6,7 +6,7 @@
   position: relative;
   background-color: rgb(42, 42, 42);
   text-align: center;
-  height: 200px;
+
   height: 220px;
 }
 #buttonWater {
@@ -66,4 +66,56 @@ button:hover {
 }
 button:active {
   box-shadow: inset 0 0 0 5px rgb(5, 5, 5);
+}
+#containerCpDiv {
+  width: 100%;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  position: relative;
+  background-color: rgb(42, 42, 42);
+  text-align: center;
+
+  height: 220px;
+}
+#circle1 {
+  top: 25%;
+  position: relative;
+  border-radius: 50%;
+  color: white;
+  background-color: grey;
+  border-color: black;
+  height: 90px;
+  width: 90px;
+}
+#circle2 {
+  margin-top: 15px;
+  background-color: grey;
+  border-radius: 50%;
+  color: white;
+  border-color: black;
+  height: 90px;
+  width: 90px;
+}
+#circle3 {
+  top: 25%;
+  border-radius: 50%;
+  background-color: grey;
+  color: white;
+  border-color: black;
+  position: relative;
+  height: 90px;
+  width: 90px;
+}
+#containerCpDiv img {
+  margin-top: 5px;
+}
+.containerScore {
+  word-spacing: 200px;
+}
+#scoreP1 {
+  font-size: 50px;
+}
+#scoreCP {
+  font-size: 50px;
 }
