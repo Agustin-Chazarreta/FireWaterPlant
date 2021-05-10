@@ -46,11 +46,7 @@
   align-items: center;
   justify-content: space-evenly;
 }
-#button2 {
-  position: relative;
-  top: -10%;
-  background-color: black;
-}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -107,7 +103,9 @@ button:active {
   width: 90px;
 }
 #containerCpDiv img {
-  margin-top: 5px;
+  margin-top: 10px;
+  height: 70px;
+  width: 70px;
 }
 .containerScore {
   word-spacing: 200px;
